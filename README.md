@@ -1,2 +1,0 @@
-# My website
-# Aman Gangrade
