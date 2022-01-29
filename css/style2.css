@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;  
+}
+.header{
+    height: 20vh;
+    /* border: 2px solid red; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px 35px 0px 40px;
+    background: rgba(0, 0, 0, 0.835);
+}
+.nav-barr{
+    float: right;
+    padding-top: 12px;
+    padding-right: 35px;
+    margin-right: 8px;
+}
+.nav{
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+   
+}
+.nav .link{
+    color: red;
+    text-decoration: none;
+    padding-left: 5px;
+    
+}
+.link:hover{
+    
+    border-bottom: 2px solid red;
+}
+
+ .header .logo{
+     font-size: 40px;
+    float: left;
+    color: white;
+    /* padding-left: 10px; */
+    padding-top:25px;
+    padding-right: 10px;
+ }
+
+
+
+p,li,h1,h2,h3{
+    letter-spacing: 1.5px;
+}
+
+.about::after{
+    margin: 2px 0px 4px 0px;
+    content: "";
+    display: block;
+    border: 2px solid rgba(255, 0, 0, 0.883);
+    
+}
+.about-india{
+    font-size: 17px;
+    color: rgb(112, 109, 109);
+}
+.content{
+    padding: 40px 120px;
+}
+.table{
+    padding-top:  20px;
+    margin: 0px 17% ;
+    color: rgb(112, 110, 110);
+
+}
+.table::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+.table1{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    
+    /* width: 50%; */
+}
+.table1 li,.table2 li{
+    padding-bottom: 10px;
+}
+
+.table1 li::before ,.table2 li::before{
+    content: '\2713';
+    color: rgba(255, 0, 0, 0.883);;
+    font-weight: bold;
+    padding-right: 10px;
+}
+.table2{list-style-type: none;
+    float: right;
+
+    
+    /* width: 50%; */
+}
+.counts{
+    text-align: center;
+}
+.count{
+    padding-top: 40px;
+    display: inline-block;
+    margin: 0px 80px;
+}
+.count span{
+    color: rgba(255, 0, 0, 0.863);
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.count p{
+    font-size: 20px;
+    color: rgb(112, 110, 110);
+font-weight: bold;    
+}
+footer{
+ 
+ margin-top: 40px;
+ padding: 10px 10px;
+background: rgba(255, 0, 0, 0.884);
+}
+footer::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+footer p{
+    float: left;
+    width: 75%;
+    font-size: 17px;
+    color:white;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+footer h1{
+    /* float: right; */
+  
+    display: inline-block;
+    width: 25%;
+    font-size: 22px;
+  text-align: center;
+    border: 4px solid white;
+    padding: 10px 10px;
+    
+}
+footer h1 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+
+
+}
+footer h1 a:hover{
+    border-bottom: 2px solid white;
+}
